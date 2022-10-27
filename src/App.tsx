@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Hero from "./components/Hero";
+import ImageSlider from "./components/ImageSlider";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             element={
               <div>
                 <Hero />
+                <ImageSlider />
               </div>
             }
           />

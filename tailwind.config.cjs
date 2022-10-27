@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         red: "#f51302",
+        redFont: "#fc0303",
       },
       fontFamily: {
         comfortaa: ["Comfortaa"],
@@ -12,5 +13,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
